@@ -1,2 +1,3 @@
 # bukanindalo
-A static information website for a non profit company named Bukanindalo NPC, based in Gqeberha
+A responsive information website for a non profit company named Bukanindalo NPC, based in Gqeberha, South Africa
+I built it with HTML, CSS and JavaScript and JavaScript dependencies like lightbox.js, owl-carousel.js, popper.js and slick.js

@@ -673,7 +673,7 @@ a.header-main-filled-button:hover {
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    background-color: white;
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
@@ -1626,7 +1626,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #339b9e 0%, #68cc98 100%);
+  background-image: linear-gradient(145deg, #328132 0%, #68cc98 100%);
   left: 0;
   right: 0;
   top: 0;

@@ -301,7 +301,6 @@ a.text-button-icon:hover i {
   font-size: 32px;
   font-weight: 800;
   letter-spacing: 1px;
-  margin-top: 20px;
   margin-bottom: 0px;
 }
 
@@ -968,7 +967,7 @@ about
 */
 
 #about {
-  padding: 120px 0px 0px 0px;
+  padding: 60px 0px 0px 0px;
   position: relative;
   z-index: 9;
 }
@@ -1708,9 +1707,11 @@ box modal
 }
 
 .modal-content {
-  margin: 10% auto;
+  margin: 5% auto;
   padding: 10px;
   width: 50%;
+  align-items: center;
+  text-align: center;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
   animation-name: modalopen;
   animation-duration: var(--modal-duration);
@@ -1754,10 +1755,8 @@ th, td {
 
 .donate-contact {
   color: #328132;
+  text-align: center;
 }
-
-
-
 
 .close {
   color: rgb(63, 63, 63);
@@ -1782,6 +1781,29 @@ th, td {
   }
 }
 
+@media screen and (max-width: 956px) {
+  .modal-content {
+    width: 75%;
+    align-items: center;
+  }
+
+  table {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .modal-content {
+    width: 75%;
+    align-items: center;
+  }
+
+}
+
+
+.donate-page {
+  align-items: center;
+}
 
 
 

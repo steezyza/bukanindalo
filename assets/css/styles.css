@@ -1773,6 +1773,16 @@ th, td {
   cursor: pointer;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .modal-content {
+    width: 75%;
+  }
+  #features .features-item {
+    text-align: center;
+  }
+}
+
+
 @keyframes modalopen {
   from {
     opacity: 0;
